@@ -2,3 +2,7 @@ h2{
     color:darksalmon;
     font-size:100rem;
 }
+p {
+    font-family: Arial;
+    font-style: italic;
+}
