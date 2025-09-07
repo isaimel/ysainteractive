@@ -1,0 +1,32 @@
+.coming-soon-regular {
+  font-family: "Coming Soon", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.cedarville-cursive-regular {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+    font-family: "Coming Soon", cursive;
+    /* font-family: "Cedarville Cursive", cursive; */
+    text-align: justify;
+    font-weight: 600;
+    border-width: 4px; 
+    border-style:solid; 
+    border-color:black;
+
+}
+header {
+    /* font-family: "Coming Soon", cursive; */
+    font-family: "Cedarville Cursive", cursive;
+    color: blue;
+}
+.chorus {
+    font-style:italic;
+    color: cornflowerblue;
+}
+p {
+  font-size: larger;
+}

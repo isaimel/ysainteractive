@@ -1,0 +1,37 @@
+.unkempt-regular {
+  font-family: "Unkempt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.unkempt-bold {
+  font-family: "Unkempt", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.sunshiney-regular {
+  font-family: "Sunshiney", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+    font-family: Arial;
+    text-align: center;
+    line-height: 1.5;
+}
+header {
+    font-weight: 400;
+}
+
+.repeatedVerse1{
+    font-family: "Unkempt", cursive;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.repeatedVerse2{
+    font-family: "Sunshiney", cursive;
+    font-style: normal;
+    font-weight: 500;
+}
