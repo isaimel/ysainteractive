@@ -1,0 +1,35 @@
+.carter-one-regular {
+  font-family: "Carter One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.pirata-one-regular {
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+    font-family: "Carter One", system-ui;
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: large;
+
+}
+header {
+    font-family: "Pirata One", system-ui;
+    text-transform: capitalize;
+    color: brown;
+}
+.chorus{
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: medium;
+    color:rgb(88, 88, 88);
+
+}
+.secondRepeat{
+    font-weight: 300;
+    font-size:smaller;
+
+}

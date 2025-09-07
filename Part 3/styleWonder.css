@@ -1,0 +1,30 @@
+.akaya-kanadaka-regular {
+  font-family: "Akaya Kanadaka", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.sirivennela-regular {
+  font-family: "Sirivennela", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+  font-family: "Akaya Kanadaka", system-ui;
+  font-size: larger;
+  text-align: center;
+  text-transform: lowercase;
+}
+h1{
+  font-weight: 500;
+  color:goldenrod;
+}
+p {
+  word-spacing: -1px;
+  font-weight: 400;
+}
+.wonderOfYou{
+  color:goldenrod;
+}
+.wonder{
+  color:rgb(232, 183, 59);
+}
