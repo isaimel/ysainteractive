@@ -12,24 +12,77 @@ body {
     font-family: "Carter One", system-ui;
     text-align: justify;
     line-height: 1.5;
-    font-weight: 400;
     font-size: large;
+    text-align:justify;
+    flex:1;
 
 }
 header {
     font-family: "Pirata One", system-ui;
     text-transform: capitalize;
-    color: brown;
+    color: antiquewhite;
+    margin: 0;
+    padding: 0;
 }
 .chorus{
     font-style: italic;
     text-transform: uppercase;
     font-size: medium;
-    color:rgb(88, 88, 88);
+    color:brown;
 
 }
 .secondRepeat{
     font-weight: 300;
     font-size:smaller;
 
+}
+h1{
+  font-size: 4rem;
+  position: sticky;
+  margin-top: 0.8rem;
+  margin-bottom: 0rem;
+}
+h2{
+  line-height: 0;
+  font-size: 4rem;
+  width: 100%;
+  position: sticky;
+  margin-bottom: 0rem;
+  
+}
+.borderBox{
+  text-align: center;
+  position: sticky;
+  background-color:black;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 100vh;
+  flex: 2;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.isFlex{
+  display: flex;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin: 0rem;
+  padding: 0rem;
+}
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.floatLeft{
+  float: left;
 }

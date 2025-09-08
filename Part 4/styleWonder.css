@@ -16,15 +16,65 @@ body{
 }
 h1{
   font-weight: 500;
-  color:goldenrod;
+  color:rgb(180, 133, 14);
+  margin-bottom: .4rem;
+
 }
 p {
   word-spacing: -1px;
-  font-weight: 400;
+  font-weight: 300;
+  margin-top: 0.2rem;
+
 }
 .wonderOfYou{
-  color:goldenrod;
+  font-weight: 400;
+  color:rgb(180, 133, 14);
 }
 .wonder{
-  color:rgb(232, 183, 59);
+  color:goldenrod;
 }
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.samelineParagraph1{
+  display: inline-block;
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+.samelineParagraph2{
+  display: inline-block;
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+.samelineParagraph3{
+  display: inline-block;
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+.inlineBlock{
+  display:inline-block;
+}
+div{
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+.duranDuran{
+  visibility: hidden;
+}
+
+/* hr {
+  margin-left: 8rem;
+  margin-right: 8rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: none; 
+  height: .15rem;
+  background-color: goldenrod;
+} */
