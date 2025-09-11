@@ -9,6 +9,7 @@
   font-style: normal;
 }
 body {
+    margin: 0;
     font-family: "Carter One", system-ui;
     text-align: justify;
     line-height: 1.5;
@@ -27,14 +28,11 @@ header {
 .chorus{
     font-style: italic;
     text-transform: uppercase;
-    font-size: medium;
     color:brown;
 
 }
 .secondRepeat{
     font-weight: 300;
-    font-size:smaller;
-
 }
 h1{
   font-size: 4rem;
@@ -51,6 +49,7 @@ h2{
   
 }
 .borderBox{
+
   text-align: center;
   position: sticky;
   background-color:black;
@@ -72,6 +71,7 @@ h2{
   padding-right: 1rem;
   padding-left: 1rem;
   margin: 0rem;
+  margin-left:1rem;
   padding: 0rem;
 }
 .left {
