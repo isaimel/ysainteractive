@@ -1,0 +1,13 @@
+img{
+    width:10rem;
+    border:solid;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    margin: .4rem;
+    border-width: .2rem;
+    border-radius: 3rem;
+    border-color:darkslategrey;
+    object-fit: contain;
+}
+body{
+    display: flex;
+}
