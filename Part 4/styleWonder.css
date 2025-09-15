@@ -9,22 +9,11 @@
   font-style: normal;
 }
 body{
+  display: flex;
+  flex-flow: row wrap;  
   font-family: "Akaya Kanadaka", system-ui;
   font-size: larger;
-  text-align: center;
   text-transform: lowercase;
-}
-h1{
-  font-weight: 500;
-  color:rgb(180, 133, 14);
-  margin-bottom: .4rem;
-  margin-top: .4rem;
-}
-p {
-  word-spacing: -1px;
-  font-weight: 300;
-  margin-top: 0.2rem;
-
 }
 .wonderOfYou{
   font-weight: 400;
@@ -33,55 +22,3 @@ p {
 .wonder{
   color:goldenrod;
 }
-.left {
-  text-align: left;
-}
-.center {
-  text-align: center;
-}
-.right {
-  text-align: right;
-}
-.samelineParagraph1{
-  display: inline-block;
-  margin-left: .5rem;
-  margin-right: .5rem;
-}
-.samelineParagraph2{
-  display: inline-block;
-  margin-left: .5rem;
-  margin-right: .5rem;
-}
-.samelineParagraph3{
-  display: inline-block;
-  margin-left: .5rem;
-  margin-right: .5rem;
-}
-.inlineBlock{
-  display:inline-block;
-}
-div{
-  margin-bottom: 0;
-  margin-top: 0;
-  padding: 0;
-}
-.duranDuran{
-  visibility: hidden;
-}
-.entire{
-  display: flex;
-}
-.partial{
-  display: flex;
-  justify-content: center;
-  gap: 25px;
-}
-/* hr {
-  margin-left: 8rem;
-  margin-right: 8rem;
-  margin-top: 0;
-  margin-bottom: 0;
-  border: none; 
-  height: .15rem;
-  background-color: goldenrod;
-} */

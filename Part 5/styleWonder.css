@@ -1,0 +1,49 @@
+.akaya-kanadaka-regular {
+  font-family: "Akaya Kanadaka", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.sirivennela-regular {
+  font-family: "Sirivennela", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+  font-family: "Akaya Kanadaka", system-ui;
+  margin: 1rem 1rem 1rem 1rem;
+
+}
+.allVerses{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+}
+.minusLastHolder{
+  display:flex;
+  flex-flow: row wrap;
+  gap: 0 1rem;
+  text-transform: lowercase;
+  justify-content: flex-right;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+p{
+  margin-left: auto;
+  font-size: larger;
+  text-align: center;
+  margin: 0;
+}
+.wonder{
+  color:goldenrod;
+  text-align: left;
+
+}
+.lastParagraph{
+  align-self: flex-end;
+  text-align: right;
+
+}
+.wonderOfYou{
+  font-weight: 400;
+  color:rgb(180, 133, 14);
+}

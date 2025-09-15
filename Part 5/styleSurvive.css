@@ -1,0 +1,45 @@
+.bad-script-regular {
+  font-family: "Bad Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Bad Script", cursive;
+  text-align: justify;
+  font-size: xx-large;
+  font-weight: 400;
+  margin-left: 10rem;
+  color:darkslateblue;
+  line-height: 3.2rem;
+  font-weight: 800;
+  letter-spacing: .08rem;
+}
+.iTalk{
+  margin-left: -6rem;
+  color:rgb(61, 104, 139);
+}
+.youTalk{
+  margin-left: 6rem;
+  color:rgb(139, 61, 95);
+}
+/* .powerful{
+  color: rgb(86, 69, 86);
+  font-weight: 500;
+}
+.weak{
+  font-family: "Caveat", cursive;
+  color: rgb(198, 145, 198);
+} */
+h2 {
+  margin: 1rem;
+  padding: 1rem;
+  color:rgb(48, 48, 48);
+}
+header {
+  margin-left: -8rem;
+
+}
+.firstParagraph {
+  margin-top:0;
+}
