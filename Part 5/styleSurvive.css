@@ -9,37 +9,52 @@ body {
   text-align: justify;
   font-size: xx-large;
   font-weight: 400;
-  margin-left: 10rem;
-  color:darkslateblue;
-  line-height: 3.2rem;
+  line-height: 3.8rem;
   font-weight: 800;
-  letter-spacing: .08rem;
+  letter-spacing: .01rem;
+  margin-left: 4rem;
+}
+.verseContainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 0;
+  justify-content:center;
+
+}
+.verses{
+  flex: 2;
+  margin-right: 1rem;
+}
+.images{
+  display: flex;
+  flex-direction: column;
+  flex: 1.5;
+  justify-content: space-around;
+  padding: 2rem 0rem 2rem 2rem;
+}
+img{
+  width: 100%;
+  height: auto;
 }
 .iTalk{
-  margin-left: -6rem;
+  padding: 0rem 0rem 0rem 2rem;
   color:rgb(61, 104, 139);
 }
-.youTalk{
-  margin-left: 6rem;
+.uTalk{
+  padding: 0rem 0rem 0rem 6rem;
   color:rgb(139, 61, 95);
 }
-/* .powerful{
-  color: rgb(86, 69, 86);
-  font-weight: 500;
+.nTalk{
+  padding: 0rem 0rem 0rem 4rem;
+  color:darkslateblue;
 }
-.weak{
-  font-family: "Caveat", cursive;
-  color: rgb(198, 145, 198);
-} */
 h2 {
-  margin: 1rem;
+  margin: 1rem 0rem 0rem 1rem;
   padding: 1rem;
   color:rgb(48, 48, 48);
 }
 header {
-  margin-left: -8rem;
-
-}
-.firstParagraph {
-  margin-top:0;
+  margin-left: -4rem;
+  background-color: white;
 }

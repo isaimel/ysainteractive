@@ -11,16 +11,17 @@
 body{
   font-family: "Akaya Kanadaka", system-ui;
   margin: 1rem 1rem 1rem 1rem;
-
+  background-color: black;
+  color: floralwhite;
 }
 .allVerses{
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
   justify-content: flex-start;
 }
 .minusLastHolder{
   display:flex;
-  flex-flow: row wrap;
+  direction: row;
   gap: 0 1rem;
   text-transform: lowercase;
   justify-content: flex-right;
@@ -41,6 +42,7 @@ p{
 .lastParagraph{
   align-self: flex-end;
   text-align: right;
+  margin-bottom: 1rem;
 
 }
 .wonderOfYou{

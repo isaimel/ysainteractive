@@ -31,17 +31,18 @@ body {
   line-height: 1.5;
   margin-left: 10rem;
   margin-right: 10rem;
-  font-size: xx-large;
+  font-size: x-large;
+  background-image: url("content/Pineapple.jpg");
+  background-repeat: repeat;
+  background-color: black;
 }
 .repeatedVerse1{
   font-family: "Unkempt", cursive;
   font-style: normal;
-  font-weight: 700;
 }
 .repeatedVerse2{
   font-family: "Sunshiney", cursive;
   font-style: normal;
-  font-weight: 500;
 }
 .left {
   text-align: left;
@@ -57,16 +58,22 @@ body {
 }
 h3 {
   font-weight: 400;
-  background-color: green;
+  background-color: white;
+  opacity: .9;
   position: fixed;
-  left: 8rem;
-  right: 8rem;
+  left: -10rem;
+  right: -10rem;
   margin: 0;
   font-size: x-large;
 }
+p {
+  font-weight: 900;
+}
 .topBorder{
   top: 0rem;
+  text-align: center;
 }
 .bottomBorder{
   bottom: 0rem;
+  text-align: center;
 }
