@@ -35,6 +35,9 @@ body {
   background-image: url("content/Pineapple.jpg");
   background-repeat: repeat;
   background-color: black;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
 }
 .repeatedVerse1{
   font-family: "Unkempt", cursive;
