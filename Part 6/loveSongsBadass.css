@@ -1,3 +1,49 @@
+body{
+    padding:0rem 1.5rem 0rem 1.5rem;
+    font-family: Geneva, sans-serif;
+    font-size: 1.5rem;
+}
 .pageHeader{
-    
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+.pageHeaderInfo{
+    display:flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin: .5rem 0rem .5rem 0rem;
+}
+h2{
+    margin: 0rem 0rem 0rem 0rem;
+    font-size: 1.2em;
+}
+.title{
+    margin: 0rem 0rem 0rem 0rem;
+    line-height: 10rem;
+    font-size: 10rem;
+}
+.badass {
+  color: black;
+  animation: textChange 2s ease-in-out infinite;
+  /* animation: textChange 4s linear infinite; */
+
+}
+@keyframes textChange {
+  /* 0% { color: white; }
+  100% { color:black; } */
+  0% { color: white; }
+  50% { color:darkred; }
+  100% { color: white; }
+}
+.hoverable{
+  transition: 0.3s;
+}
+.hoverableContent{
+    font-size: 0rem;
+}
+.hoverable:hover .hoverableContent{
+  font-size: 1.2rem;
+  line-height: 2.2rem;
 }
