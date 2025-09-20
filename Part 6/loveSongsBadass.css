@@ -1,7 +1,7 @@
 body{
-    padding:0rem 1.5rem 0rem 1.5rem;
+    padding:0rem 16vw 0rem 16vw;
     font-family: Geneva, sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 .pageHeader{
     display:flex;
@@ -22,20 +22,20 @@ h2{
 .title{
     margin: 0rem 0rem 0rem 0rem;
     line-height: 10rem;
-    font-size: 10rem;
+    font-size: 9rem;
 }
 .badass {
   color: black;
-  animation: textChange 2s ease-in-out infinite;
+  animation: textChange 2s ease-in-out;
   /* animation: textChange 4s linear infinite; */
 
 }
 @keyframes textChange {
-  /* 0% { color: white; }
-  100% { color:black; } */
   0% { color: white; }
+  100% { color:black; }
+  /* 0% { color: white; }
   50% { color:darkred; }
-  100% { color: white; }
+  100% { color: white; } */
 }
 .hoverable{
   transition: 0.3s;
@@ -44,6 +44,10 @@ h2{
     font-size: 0rem;
 }
 .hoverable:hover .hoverableContent{
-  font-size: 1.2rem;
-  line-height: 2.2rem;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+}
+img{
+  max-width: 100%;
+  height: auto;
 }
