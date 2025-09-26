@@ -26,16 +26,16 @@ h2{
 }
 .badass {
   color: black;
-  animation: textChange 2s ease-in-out;
-  /* animation: textChange 4s linear infinite; */
+  /* animation: textChange 2s ease-in-out; */
+  animation: textChange 1s ease-in-out infinite;
 
 }
 @keyframes textChange {
-  0% { color: white; }
-  100% { color:black; }
   /* 0% { color: white; }
+  100% { color:black; } */
+  0% { color: white; }
   50% { color:darkred; }
-  100% { color: white; } */
+  100% { color: white; }
 }
 .hoverable{
   transition: 0.3s;
