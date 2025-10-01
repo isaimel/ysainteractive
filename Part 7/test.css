@@ -1,4 +1,23 @@
+body{
+    margin: 0 0 0 0;
+    padding: 0rem .5rem 0 .5rem;
+    overflow-x: hidden;
+}
 .grid{
     display: grid;
-    grid-template-columns: repeat(5, 20vw, [col-start]);
+    grid-template-columns: 1fr 1fr 3fr 1fr 2fr;
+    grid-template-rows: 50vh 50vh 50vh;
+    border-width: 2rem;
+    border-color: black;
+}
+h2{
+    margin: 0;
+    padding: 0rem 0rem .2rem 0rem;
+}
+.songTitles{
+    grid-row: 2 /-1;
+    grid-column: -2;
+    justify-content: left;
+    min-height: 0;
+    overflow-y:scroll;
 }
