@@ -1,0 +1,37 @@
+@keyframes autoHorizontalScrollAnimation1 {
+  from {left: 0;}
+  to {left:50rem;}
+}
+
+@keyframes autoHorizontalScrollAnimation2 {
+  from {left: 0;}
+  to {left:20rem;}
+}
+/* The element to apply the animation to */
+body{
+    display: grid;
+    grid-template-columns: 20rem 20rem 20rem;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+.autoHorizontalScroll {
+    display: flex;
+    flex-direction: row;
+  position: relative;
+  overflow-x: hidden;
+  justify-content: space-around;
+  grid-column: 1;
+  grid-row: 2;
+  width: auto;
+  height: 100%;
+  left: 0;
+}
+.autoHorizontalScroll div{
+    max-width: fit-content;
+}
+
+#firstFrame{
+  animation: autoHorizontalScrollAnimation1 4s linear infinite;
+}
+#secondFrame{
+  animation: autoHorizontalScrollAnimation2 4s linear infinite;
+}
