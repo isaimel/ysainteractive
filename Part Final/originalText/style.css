@@ -1,74 +1,44 @@
-/* Container for the emotion languages section */
-#emotionLanguages {
-    width: 90%;
-    max-width: 900px;
-    margin: 2rem auto;
-    padding: 2rem;
+body{
+    margin: 0;
+    max-width: 100vw;
+    margin: 0;
+    padding: 2rem 8rem 2rem 8rem;
     background-color: black;
-    border-radius: 12px;
     color: white;
 }
-
-/* Section header */
-#emotionLanguages .header {
-    font-size: 2rem;
-    font-weight: 700;
+.header {
+    font-size: 4rem;
     text-align: center;
     margin-bottom: 2rem;
-    color: deeppink;
+    color: red;
 }
-
-/* Paragraph styling */
-#emotionLanguages p {
-    font-size: 1rem;
+p {
+    font-size: 2rem;
     margin-bottom: 1.5rem;
 }
-
-/* Bold key words */
-#emotionLanguages strong {
-    color: darkmagenta;
+b {
+    color: deeppink
+}
+li {
+    font-size: 2rem;
+    margin-bottom: 0.4rem;
+}
+a {
+    color: inherit;
 }
 
-/* Italics for special terms or foreign words */
-#emotionLanguages em {
-    font-style: italic;
-    color: darkslateblue;
-}
-
-/* Numbered lists */
-#emotionLanguages ol {
-    margin-left: 2rem;
-    margin-bottom: 1.5rem;
-}
-
-#emotionLanguages li {
-    margin-bottom: 0.8rem;
-}
-
-/* Spotify link styling */
-#emotionLanguages a {
-    display: inline-block;
-    margin-top: 2rem;
-    padding: 0.6rem 1.2rem;
-    background-color: deeppink;
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-    border-radius: 8px;
-    transition: background-color 0.3s ease;
-}
-
-#emotionLanguages a:hover {
-    background-color: darkmagenta;
-}
-
-/* Responsive tweaks */
-@media (max-width: 600px) {
-    #emotionLanguages {
-        padding: 1.2rem;
+@media (max-width: 780px) {
+    body {
+        padding: 2rem 3rem 2rem 3rem;
     }
-
-    #emotionLanguages .header {
+    .header {
         font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+    p, li {
+        font-size: .8rem;
+    }
+    p{
+        margin:.8rem
     }
 }
