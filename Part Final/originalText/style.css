@@ -1,0 +1,74 @@
+/* Container for the emotion languages section */
+#emotionLanguages {
+    width: 90%;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+}
+
+/* Section header */
+#emotionLanguages .header {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: deeppink;
+}
+
+/* Paragraph styling */
+#emotionLanguages p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Bold key words */
+#emotionLanguages strong {
+    color: darkmagenta;
+}
+
+/* Italics for special terms or foreign words */
+#emotionLanguages em {
+    font-style: italic;
+    color: darkslateblue;
+}
+
+/* Numbered lists */
+#emotionLanguages ol {
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+#emotionLanguages li {
+    margin-bottom: 0.8rem;
+}
+
+/* Spotify link styling */
+#emotionLanguages a {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.6rem 1.2rem;
+    background-color: deeppink;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+#emotionLanguages a:hover {
+    background-color: darkmagenta;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+    #emotionLanguages {
+        padding: 1.2rem;
+    }
+
+    #emotionLanguages .header {
+        font-size: 1.5rem;
+    }
+}
