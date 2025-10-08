@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
     const songs = ["andante", "eyes", "lay", "SOS", "trouper", "us", "winner"];
 
-    songs.forEach((song) => {
-        const songImg = document.getElementById(song + "Img");
-        const songLyr = document.getElementById(song + "Text");
+    for (let i = 0; i < songs.length; i++) {
+        const songImg = document.getElementById(songs[i] + "Img");
+        const songLyr = document.getElementById(songs[i] + "Text");
 
         songLyr.style.display = "none";
 
@@ -25,5 +25,5 @@ document.addEventListener("DOMContentLoaded", () => {
             songLyr.style.display = "none";
             songImg.style.opacity = "1";
         });
-    });
+}
 });

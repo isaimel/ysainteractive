@@ -42,3 +42,9 @@ a {
         margin:.8rem
     }
 }
+
+@media (max-width: 400px) {
+    body {
+        padding: 1rem 1rem 1rem 1rem;
+    }   
+}

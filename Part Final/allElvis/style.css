@@ -9,7 +9,6 @@ body{
     gap: 1rem;
 }
 .link{
-    position: fixed;
     color: inherit;
     font-size: 1rem;
 }
@@ -208,4 +207,16 @@ p{
     #wonderText { 
         grid-row: 8; 
     }
+}
+
+@media only screen and (max-width: 400px) {
+    .introduction{
+        padding: 0rem 1rem 0rem 0rem;
+        font-size: 1rem;
+        color: cyan;
+    }
+#devilText, #letText, #lovingText, #moodyText, #pretendText, #wayText, #wonderText {
+    font-size: 1rem;
+    /* padding: 10rem 0rem 10rem 0rem; */
+}
 }
